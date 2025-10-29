@@ -2,7 +2,7 @@
 
 C++ connector library for YugabyteDB (PostgreSQL-compatible) built on Poco C++ Libraries. Day 1 provides the project skeleton, CMake configuration, core class stubs, and architecture documentation. Day 2 adds connection/auth with retries and a basic test.
 
-## Features (Day 1 + Day 2)
+## Features 
 - CMake-based build with Poco::Data, Poco::Data::PostgreSQL, Poco::Net, Poco::JSON
 - Core components: YBConnectionManager, YBQueryExecutor, YBResultSet, YBErrorHandler
 - Parameterized connect(host, port, db, user, password) with bounded retries
